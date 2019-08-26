@@ -26,12 +26,6 @@ function greeting(){
 
 function age(){
     let name = document.querySelector("#old").value;
-  
-    let message1 = `Liian nuori pelaamaan tätä peliä!`;
-    let message2 =   `hyvä, jatketaan`;
-    
-    console.log((age > 16) = message1);
-    console.log((age < 16) = message2);
     let myHeader = document.createElement("h3");
     let myText = document.createTextNode(message1)
   
